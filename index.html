@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE-edge" />
@@ -7,8 +8,308 @@
   <title>JavaScript Team Cards Project</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <h1 class="title"></h1>
-  
+  <h1 class="title">Team stats</h1>
+  <main>
+    <div class="team-stats">
+      <p>Team: <span id="" team></span></p>
+      <p>Sport: <span id="" sport></span></p>
+      <p>Year: <span id="" year></span></p>
+      <p>Head coach: <span id="" head-coach></span></p>
+    </div>
+    <label for="players" class="options-label">Filter Teammates:</label>
+    <select name="players" id="players">
+      <option value="all">All Players</option>
+      <option value="nickname">Nicknames</option>
+      <option value="pitcher">Position Pitcher</option>
+      <option value="catcher">Position Catcher</option>
+      <option value="firstbase">Position First Base</option>
+      <option value="secondbase">Position Second Base</option>
+      <option value="thirdbase">Position Third Base</option>
+      <option value="shortstop">Position Shortstop</option>
+      <option value="leftfielder">Position Left Fielder</option>
+      <option value="centerfielder">Position Center Fielder</option>
+      <option value="rightfielder">Position Right Fielder</option>
+    </select>
+    <div class="cards" id="player-cards">
+      <div class="player-card">
+        <h2>Erick Fedde</h2>
+        <p>Position: SP</p>
+        <p>Number: 12</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Sonny Gray</h2>
+        <p>Position: SP</p>
+        <p>Number: 54</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Matthew Liberatore</h2>
+        <p>Position: SP</p>
+        <p>Number: 52</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Miles Mikolas</h2>
+        <p>Position: SP</p>
+        <p>Number: 39</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Andre Pallante</h2>
+        <p>Position: SP</p>
+        <p>Number: 53</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Gordon Graceffo</h2>
+        <p>Position: RP</p>
+        <p>Number: 44</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>John King</h2>
+        <p>Position: RP</p>
+        <p>Number: 47</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Kyle Leahy</h2>
+        <p>Position: RP</p>
+        <p>Number: 62</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Phil Maton</h2>
+        <p>Position: RP</p>
+        <p>Number: 88</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Steven Matz</h2>
+        <p>Position: RP</p>
+        <p>Number: 32</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Riley O’Brien</h2>
+        <p>Position: RP</p>
+        <p>Number: 55</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>JoJo Romero</h2>
+        <p>Position: RP</p>
+        <p>Number: 59</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Ryan Helsley</h2>
+        <p>Position: Closer (RP)</p>
+        <p>Number: 56</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Iván Herrera</h2>
+        <p>Position: C</p>
+        <p>Number: 48</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Pedro Pagés</h2>
+        <p>Position: C</p>
+        <p>Number: 43</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Yohel Pozo</h2>
+        <p>Position: C</p>
+        <p>Number: 63</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Nolan Arenado</h2>
+        <p>Position: 3B</p>
+        <p>Number: 28</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Alec Burleson</h2>
+        <p>Position: 1B/OF</p>
+        <p>Number: 41</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Willson Contreras</h2>
+        <p>Position: 1B</p>
+        <p>Number: 40</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Brendan Donovan</h2>
+        <p>Position: 2B</p>
+        <p>Number: 33</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>José Fermín</h2>
+        <p>Position: 2B</p>
+        <p>Number: 15</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Nolan Gorman</h2>
+        <p>Position: 2B</p>
+        <p>Number: 16</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Garrett Hampson</h2>
+        <p>Position: 2B</p>
+        <p>Number: 13</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Thomas Saggese</h2>
+        <p>Position: 2B</p>
+        <p>Number: 25</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Masyn Winn</h2>
+        <p>Position: SS</p>
+        <p>Number: 0</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Victor Scott II</h2>
+        <p>Position: CF</p>
+        <p>Number: 11</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Oliver Marmol</h2>
+        <p>Position: Manager</p>
+        <p>Number: 37</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Daniel Descalso</h2>
+        <p>Position: Bench Coach</p>
+        <p>Number: 34</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Brant Brown</h2>
+        <p>Position: Hitting Coach</p>
+        <p>Number: 73</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Brandon Allen</h2>
+        <p>Position: Assistant Hitting Coach</p>
+        <p>Number: 87</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Dusty Blake</h2>
+        <p>Position: Pitching Coach</p>
+        <p>Number: 90</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Dean Kiekhefer</h2>
+        <p>Position: Assistant Pitching Coach</p>
+        <p>Number: 89</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Julio Rangel</h2>
+        <p>Position: Assistant Pitching Coach/Bullpen</p>
+        <p>Number: 74</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Stubby Clapp</h2>
+        <p>Position: First Base Coach</p>
+        <p>Number: 82</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Ron “Pop” Warner</h2>
+        <p>Position: Third Base Coach</p>
+        <p>Number: 75</p>
+        <p>Nickname: Pop</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Kleininger Teran</h2>
+        <p>Position: Bullpen Catcher</p>
+        <p>Number: 76</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Packy Elkins</h2>
+        <p>Position: Game Planning Coach</p>
+        <p>Number: 86</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Jon Jay</h2>
+        <p>Position: Assistant Major League Coach</p>
+        <p>Number: 19</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+      <div class="player-card">
+        <h2>Jamie Pogue</h2>
+        <p>Position: Assistant Coach/Bullpen Coach</p>
+        <p>Number: 94</p>
+        <p>Nickname: N/A</p>
+      </div>
+    </div>
+    <footer>&copy; Tim McDermott</footer>
+    <script src="./app.js"></script>
+  </main>
+
 </body>
+
 </html>
