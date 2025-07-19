@@ -167,5 +167,85 @@ const myFavoriteBaseballTeam = {
       number: "11",
       nickname: "null",
     },
+  ],
+  coaches: [
+    {
+      name: "Oliver Marmol",
+      type: "Manager",
+      number: 37,
+      nickname: "null",
+    },
+    {
+      name: "Daniel Descalso",
+      type: "Bench Coach",
+      number: 34,
+      nickname: null,
+    },
+        {
+      name: "Brant Brown",
+      type: "Hitting Coach",
+      number: 73,
+      nickname: "null",
+    },
+        {
+      name: "Brandon Allen",
+      type: "Assistant Hitting Coach",
+      number: 87,
+      nickname: "null",
+    },
+        {
+      name: "Dusty Blake",
+      type: "Pitching Coach",
+      number: 90,
+      nickname: "null",
+    },
+        {
+      name: "Dean Kiekhefer",
+      type: "Pitching Coach",
+      number: 89,
+      nickname: "null",
+    },
+        {
+      name: "Julio Rangel",
+      type: "Assitant Pitching Coach",
+      number: 74,
+      nickname: "null",
+    },
+        {
+      name: "Stubby Clapp",
+      type: "First Base Coach",
+      number: 82,
+      nickname: "null",
+    },
+        {
+      name: "Ron Warner",
+      type: "Third Base Coach",
+      number: 75,
+      nickname: "Pop",
+    },
+        {
+      name: "Kleininger Teran",
+      type: "Bullpen Catcher Coach",
+      number: 76,
+      nickname: "null",
+    },
+        {
+      name: "Packy Elkins",
+      type: "Game Planning Coach",
+      number: 86,
+      nickname: "null",
+    },
+        {
+      name: "Jon Jay",
+      type: "Assistant Major League Coach",
+      number: 19,
+      nickname: "null",
+    },
+        {
+      name: "Jamie Pogue",
+      type: "Assistant Coach",
+      number: 94,
+      nickname: "null",
+    },
   ]
 }
