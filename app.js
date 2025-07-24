@@ -1,6 +1,6 @@
 const teamName = document.getElementById("team");
-const sportName = document.getElementById("sport");
-const yearOfTeam = document.getElementById("year");
+const typeOfSport = document.getElementById("sport");
+const worldSeriesYear = document.getElementById("year");
 const managerName = document.getElementById("manager");
 const dropDownList = document.getElementById("players");
 const playerCards = document.getElementById("player-card");
@@ -10,6 +10,7 @@ const myFavoriteBaseballTeam = {
   sport: "Baseball",
   year: 2025,
   isWorldSeriesChampion: false,
+  managerName: "Oliver Marmol",
   player: [
     {
       name: "Erick Fedde",
@@ -247,5 +248,7 @@ const myFavoriteBaseballTeam = {
       number: 94,
       nickname: "null",
     },
-  ]
-}
+  ],
+};
+
+Object.freeze(myFavoriteBaseballTeam);
